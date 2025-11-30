@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# books files
+books/*.pdf
+books/*.epub
+books/*.mobi
+
+# vscode files
+.vscode/
