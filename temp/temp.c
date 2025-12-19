@@ -1,4 +1,8 @@
+//打印ASCII码
 #include<stdio.h>
 int main(){
-    printf("你好世界");
+  int i;
+  for (i = 0; i < 128;i++){
+    printf("%d.%c\n",i,i);
+  }
 }
