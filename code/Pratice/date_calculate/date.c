@@ -12,7 +12,7 @@ int isLeapYear(int year)
 int getDaysInMonth(int year, int month) 
 {
     int daysInMonth[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    if (month == 2 && isLeapYear(year)) -
+    if (month == 2 && isLeapYear(year)) 
     {
         return 29;
     }
